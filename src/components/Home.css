@@ -1,0 +1,28 @@
+.flipUp-360 {
+  transition: 1s, color 1s;
+  -webkit-transition: .5s, color .10s;
+  -moz-transition: .5s, color .10s;
+}
+
+.flipUp-360:hover {
+  transform: rotateX(360deg);
+  -webkit-transform: rotateX(360deg);
+  -moz-transform: rotateX(360deg);
+}
+
+
+/* .first-color { 
+	background: #faf6e9; 
+}
+	
+.second-color { 
+	background: #ece8d9; 
+}
+
+.third-color { 
+	background: #fffdf6; 
+}
+
+.fourth-color { 
+	background: #494949; 
+} */

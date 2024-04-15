@@ -1,0 +1,11 @@
+.hovered{
+    opacity: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  
+  .hovered:hover {
+    opacity: 1;
+  }
+  

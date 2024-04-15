@@ -1,0 +1,51 @@
+/* Profile.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
+}
+
+.column {
+    /* Add Tailwind CSS classes to style the article element */
+    @apply flex flex-col items-center justify-center text-center bg-white rounded-lg shadow-lg p-6 m-4;
+    /* Adjust styles as needed */
+}
+
+.column img {
+    /* Add Tailwind CSS classes to style the img element */
+    @apply w-32 h-32 rounded-full object-cover;
+    /* Adjust styles as needed */
+}
+
+.column h2 {
+    /* Add Tailwind CSS classes to style the h2 element */
+    @apply text-lg font-semibold text-gray-800 mt-4 mb-2;
+    /* Adjust styles as needed */
+}
+
+.column ul {
+    /* Add Tailwind CSS classes to style the ul element */
+    @apply text-gray-600 mb-4;
+    /* Adjust styles as needed */
+}
+
+.column li {
+    /* Add Tailwind CSS classes to style the li element */
+    @apply py-1;
+    /* Adjust styles as needed */
+}
+
